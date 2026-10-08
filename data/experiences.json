@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "name": "JavaScript",
+        "icon": "icons/javascript.svg",
+        "when": "I've used JavaScript for many years to build a variety of web applications.",
+        "why": "JavaScript is THE language of the web, and is fundamental to building anything interactive on the web.",
+        "experience": "I've used JavaScript to build many applications. I was initially tutored in it during my time in college. I've learned many concepts and patterns since, but to name a few here: fetching, service workers, async, PWAs, MVC/MVVM. I'm confident in using JavaScript to build interesting and unique projects.",
+        "categories": [
+            "Programming",
+            "Web Development"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "MySQL | SQL | SQLite",
+        "icon": "icons/mysql.svg",
+        "when": "SQL is a common language used in database management. I've used it in various projects throughout my career.",
+        "why": "SQL provides a clean syntax I can use to manipulate data in any way I need. Using LINQ, it can be used in C# to write SQL queries in a more readable way.",
+        "experience": "SQL has been used in my projects to do things such as managing an items list, user authentication, and even game saves. I'm confident in using SQL, LINQ, and SQLite in addition to tools such as SSIS to load data into applications.",
+        "categories": [
+            "Databases & Data"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "ASP.NET",
+        "icon": "icons/dotnet.svg",
+        "when": "I'm familiar with ASP.NET and have used it in some of my projects during my time in college. I've used it to build MVC and MVVM apps, in addition to Razor/Blazor pages.",
+        "why": "ASP.NET is a powerful framework when it comes to building applications. The ability to create web applications using the .NET ecosystem is awesome.",
+        "experience": "Numerous projects of mine during my time in education have used ASP.NET. For example, my project SOLD uses Blazor/Razor pages that allow it to be used on the web. I'm confident in using this framework to create many different kinds of applications.",
+        "categories": [
+            "Web Development"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "C#",
+        "icon": "icons/csharp.svg",
+        "when": "I've used C# since 2022 to build hobby projects, school projects, and even a project for Greenheck Group.",
+        "why": "C# is the first coding language I've used, and it's the one I'm most confident with. I find C# to be very comfortable to work with, and it's always my go-to language when working on new projects.",
+        "experience": "Between 2022 to present day, I've built more applications in C# than any other language. If given enough time with a feature, I'm certain I could create it in C#. Check out the projects section of my portfolio to see some cool things I've created with this language.",
+        "categories": [
+            "Programming",
+            "Web Development"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "HTML | CSS",
+        "icon": "icons/html.svg",
+        "when": "I was initially taught about HTML/CSS during my time in college. During this time, I became quite familiar with setting up and hosting many different web applications.",
+        "why": "These are foundational languages I feel like every developer should know, and I've used both to develop many web applications. Every browser uses them, so knowing them is essential.",
+        "experience": "I've had years of experience with both of these languages. Originally, I was going to create this website in a language such as React, but I decided to use HTML/CSS instead to demonstrate my knowledge of these languages.",
+        "categories": [
+            "Web Development"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "React",
+        "icon": "icons/react.svg",
+        "when": "I've used React to create several web applications. Although I'm more comfortable with JavaScript, I'm not unfamiliar with using React.",
+        "why": "React is a great frontend library when working with web apps. React comes with some handy tools to help develop applications without having to write as much code.",
+        "experience": "Although I understand the usefulness of React, this library is one of my weaker points. I've used it a handful of times to create some college projects, but I've only really taken a crash course with it.",
+        "categories": [
+            "Web Development"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "PHP",
+        "icon": "icons/php.svg",
+        "when": "During college, this was a language I dabbled in when learning about web development. Similar to React, I've taken a crash course on this language and created several applications throughout my time in college.",
+        "why": "PHP is a commonly used backend framework used in web development. In my opinion, this makes it valuable to learn. PHP is also easy to use and learn, with a large set of documentation available.",
+        "experience": "I'm comfortable enough using PHP to develop applications in it. PHP was used with HTML and CSS to create simple applications to demonstrate my knowledge of the language. I enjoyed using PHP, and I considered coding this website in it before settling on plain vanilla JavaScript.",
+        "categories": [
+            "Programming",
+            "Web Development"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Node.js | Express",
+        "icon": "icons/nodejs.svg",
+        "when": "Throughout much of my time in college, I've used Node.js and Express. I'm familiar with setting them up locally and hosting them online on a platform such as Azure.",
+        "why": "Node.js and Express are excellent tools to use with JavaScript when working with the web, namely the backend. They make it easy to create an application without having too much code writing for common tasks.",
+        "experience": "I've used these libraries frequently, and have also created PWAs and service workers alongside these tools. Both of these libraries are excellent to learn when getting your feet wet with backend development, in my opinion.",
+        "categories": [
+            "Web Development",
+            "API & Services"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "REST APIs",
+        "icon": "icons/api.svg",
+        "when": "Many times throughout my career, such as hobby projects or school. REST APIs are incredibly useful, and I'm quite familiar with using them.",
+        "why": "REST APIs are quite common. Learning how to work with them is important, so I figured I'd list it here. REST APIs allow you to communicate between different applications and services. This creates a lot of room for the imagination to work with.",
+        "experience": "I'll give an example of when I've used several in one project. I was working on a project that fetched video game data. I used several APIs to fetch the price, any sales, current player count, and overall reviews. This combination of APIs allowed me to create a comprehensive view of a game's performance.",
+        "categories": [
+            "Web Development",
+            "API & Services"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Entity Framework",
+        "icon": "icons/dotnet.svg",
+        "when": "EF Core is a popular ORM for .NET apps. I used this ORM during school to help in the development of the project SOLD. EF Core helped create the bridge between the database and the application, allowing my team and me to easily work with the data.",
+        "why": "EF Core is a great tool to use when working with databases and .NET. It creates a scalable way to connect a database to an application, and it didn't take much to understand. EF Core is not only powerful, but beginner-friendly as well.",
+        "experience": "EF was used in the creation of SOLD. From day 1 of the project's lifespan, EF was used all throughout the project. The project used a connection string to connect to the DB, and we populated the database initially with seeding. I've used EF framework on local projects, and SOLD was hosted on the web.",
+        "categories": [
+            "Databases & Data"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "SSIS",
+        "icon": "icons/ssis.svg",
+        "when": "SSIS is a tool that allows you to take data from one source and put it in another. In my case, I used it in college along with things such as text or CSV files. I used SSIS in Visual Studio to create a data flow that would transfer data from one source to another.",
+        "why": "SSIS is nice to know if you move data around frequently. Having a CSV full of data that must be clean and transformed through ETL is easy with a tool like SSIS.",
+        "experience": "I've used both CSV and text files with SSIS to transfer data from one source to another. Further, I've also cleaned and transformed data from CSV and text files using SSIS.",
+        "categories": [
+            "Databases & Data"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Microsoft Excel",
+        "icon": "icons/excel.svg",
+        "when": "I've used Excel many times over many years, both in my personal and professional life.",
+        "why": "Excel is simply powerful for storing information. Also, it has some built-in formulas you can use to clean or aggregate data inside of it.",
+        "experience": "I've used Excel to load data from CSVs to applications. I've also used it to clean and transform data using built-in formulas.",
+        "categories": [
+            "Databases & Data"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Microsoft Power BI",
+        "icon": "icons/powerbi.svg",
+        "when": "I've used Power BI to create reports on data from various data, such as sales and customer information, during college. I used this data to create presentations on how it might be useful.",
+        "why": "Power BI allows you to take data and make easy-to-visualize charts and graphs. Want to take sales data between two months to compare? Power BI is perfect for a situation like that.",
+        "experience": "I've used Power BI enough to understand its benefits in a business setting. Using Power BI, you can show off data to non-IT-related peers to get their opinion on things that relate to the business.",
+        "categories": [
+            "Databases & Data"
+        ]
+    }
+]

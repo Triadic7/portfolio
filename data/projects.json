@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "name": "ChronoQuest",
+    "slug": "chronoquest",
+    "briefDescription": "A game created with a team for a game jam competition in two weeks. Players try to stop evil entities from destroying the timeline. Come check out what got us first place!",
+    "images": [
+      "images/chronoquest/chronoquest.png",
+      "images/chronoquest/chronoquest_settings.png",
+      "images/chronoquest/chronoquest_load.png",
+      "images/chronoquest/chronoquest_egypt_npc.png",
+      "images/chronoquest/chronoquest_egypt.png",
+      "images/chronoquest/chronoquest_europe_npc.png",
+      "images/chronoquest/chronoquest_europe.png",
+      "images/chronoquest/chronoquest_modern.png",
+      "images/chronoquest/chronoquest_space.png",
+      "images/chronoquest/chronoquest_epilogue_modern.png",
+      "images/chronoquest/chronoquest_epilogue.png"
+    ],
+    "description": "ChronoQuest is a local co-op game created for a game jam. We were given a set of parameters to follow when developing the game: it needed a save system, co-op in some form, multiple stages, NPC interaction, multiple endings, etc. It was quite the challenge to work on this project, but also incredibly rewarding. The central loop of the game revolved around the players trying to stop entities from breaking the timeline. We created four stages, each set in a different age with a different minigame to go along with it. If the players won or lost a stage, that would affect their outcome. We wanted some stakes with the game, so we made it so that players progressed whether they won or lost a stage. Instead, the ending would change based on which stages they passed and failed at. The game was quite simple for a two-week project and takes roughly 5–10 minutes in total to beat.",
+    "initialThoughts": "ChronoQuest was a game made by a whole group of people. We were given 30 days to do it, but this was during January when the team was on vacation. We ended up knocking it out in two weeks instead. The last day was spent frantically checking it for bugs and polishing up anything we could. I doubted much would come from it and was surprised a couple of weeks later when we learned it had made it into the top 10. This qualified us to head to Nashville, Tennessee, to compete in the top 10. I couldn't believe our little game had made it that far, and it really moved me. All those hours and days grinding away to finish the game had paid off.",
+    "reflection": "We ended up placing 1st in the competition, much to my shock. This was something created in two weeks with the help of lots of coffee, and as a developer, I could easily point out its flaws. I was sick to my stomach worrying about all the bugs I knew of but had no time to solve. How would people react to seeing a glitch in our game? Turns out I worried for nothing. Not a single person noticed any of the bugs I spent time worrying over. I felt tremendous relief after the ordeal was over. This was the first project I worked on that seemed to have real merit to it, and I'll always be proud of that fact.",
+    "github": "https://github.com/Triadic7/ChronoQuest",
+    "featured": true,
+    "award": "1st Place Winner"
+  },
+  {
+    "id": 2,
+    "name": "Dog",
+    "slug": "dog",
+    "briefDescription": "A Discord bot that provides light chat moderation and a tad bit of fun. Invite Dog to get dog facts, game info, and anonymous voting polls.",
+    "images": [
+      "images/dog/dog.png",
+      "images/dog/dog_settings.png",
+      "images/dog/dog_setup.png",
+      "images/dog/dog_game.png",
+      "images/dog/dog_poll.png",
+      "images/dog/dog_dice.png",
+      "images/dog/dog_fact.png"
+    ],
+    "description": "Dog is a Discord bot I created as a personal project. It mainly exists for my friends and I to use, but I figured it might be nice to add it to Git in case others wanted to use it as a template. Dog allows Discord admins to set up a list of banned words to help clean up chat and prevent users from saying things they shouldn't. Additionally, it also comes with the ability to roll dice, create anonymous polls, and display information about games found on Steam. Dog may not be as feature rich as other Discord bots, but it is polished and doesn't crash whatsoever. Feel free to fork the Git if you've ever wanted to create your own bot.",
+    "initialThoughts": "I knew what Dog would be before I started working on it. Prior to Dog, I had another bot called Kitten which was the prototype of Dog. I created Kitten when I was still green to coding, and I felt like the code on Kitten had gotten too spaghetti. This is what led me to working on Dog, which has much neater code and is much easier to add new features to. I created Dog with the idea that my friends would be the main ones to use it, so I catered its commands to suit that task. Dog was created relatively quickly because of my past knowledge of working with bots.",
+    "reflection": "After Dog was created, I put it on Git right away. I didn't think anyone would fork it, but I wanted to add it just in case. As a frequent Discord user, Dog still gets plenty of use from my friends and me. I feel like there isn't much more to say about Dog that I haven't already mentioned. My friends use it more or less every day to some extent. In my mind, if someone interacts regularly with something you've created, you've done a good job. I'm happy with Dog and I'd still go back and add more commands to him if my friends wanted me to.",
+    "github": "https://github.com/Triadic7/DogBot"
+  },
+  {
+    "id": 3,
+    "name": "Cafecito",
+    "slug": "cafecito",
+    "briefDescription": "Check out this cool little story game and learn a little about coffee in the process. You might just learn something interesting along the way.",
+    "images": [
+      "images/cafecito/cafecito.png",
+      "images/cafecito/cafecito_menu.png",
+      "images/cafecito/cafecito_biblio.png",
+      "images/cafecito/cafecito_npc4.png",
+      "images/cafecito/cafecito_npc_dialogue2.png",
+      "images/cafecito/cafecito_npc3.png",
+      "images/cafecito/cafecito_npc_dialogue.png",
+      "images/cafecito/cafecito_npc2.png",
+      "images/cafecito/cafecito_npc.png",
+      "images/cafecito/cafecito_end.png"
+    ],
+    "description": "Cafecito is a small story game that takes place in a coffee shop. Various different characters from different social statuses enter the shop and describe their ways of life to the player. Cafecito was created for a friend's school project, and was the first game I've ever developed to completion. Because of that fact, it will always hold a special place in my heart. It's less of a game and more of a mini movie. Players speak to several characters before the day and the game ends. It also contains several small easter eggs you can find that tell a little more about coffee.",
+    "initialThoughts": "When I was asked to help create this project, I knew right away to be wary about scope. I had dabbled in game creation before, but nothing that could be considered \"polished\" or \"finished.\" Luckily, my friend was very accommodating and very compatible to work with. We sketched out some early ideas of how the game would work, and after a day of coding, I had the initial game ready to go. Cafecito is a small game, and we planned for it to be completed in around 5 minutes. This helped keep things tight and prevented feature creep. My friend designed the characters and writing, and I coded the logic and pieced them together.",
+    "reflection": "My friend and I were very satisfied with the result of Cafecito, which took around a week to develop from start to finish. I enjoyed my time working on it, and even managed to add some small features into the game, such as a translator that turned some of the characters' native tongue into English. We also managed to squeeze in a light day-night cycle that showed the passage of time after each NPC was talked to. When my friend submitted it for school, they received an excellent grade on it, and we both celebrated over what we had made together.",
+    "github": "https://github.com/Triadic7/Cafecito-Game"
+  },
+  {
+    "id": 4,
+    "name": "Prey and Pilfer",
+    "slug": "prey-and-pilfer",
+    "briefDescription": "This was the second game I helped develop and was part of a 10-day game jam, my first game jam as well. Did we place first? Definitely not, but we did learn a lot!",
+    "images": [
+      "images/preyandpilfer/pap.png",
+      "images/preyandpilfer/pap_text.png",
+      "images/preyandpilfer/pap_intro.png",
+      "images/preyandpilfer/pap_bedroom.png",
+      "images/preyandpilfer/pap_gathering.png",
+      "images/preyandpilfer/pap_storage.png",
+      "images/preyandpilfer/pap_shrine.png",
+      "images/preyandpilfer/pap_end.png"
+    ],
+    "description": "Prey and Pilfer is a game created for a 10-day game jam. It was created as a team effort consisting of myself and two of my friends. Prey and Pilfer centers around the player trying to deduce the correct items before the timer runs out. Players must avoid scary NPCs that try to stop them from gathering any items. If a player is caught, they can try talking their way out of it. Get it wrong, however, and you get sent back with a penalty to your time. If you can find the 3 correct objects from the 12 possible, you win. The items are random that you have to pick each run, so users can't just memorize them. The ending that you get depends on the number of correct objects you found.",
+    "initialThoughts": "This was the second game I've ever made to completion, and it was an interesting one to work on. For this game jam, we were given a theme of \"offering\" and the restriction that we could only use two colors. Right away we brainstormed ideas about what the central gameplay loop should look like, and how we would factor offering into it. We ended up coming up with the idea of offering the correct items to the correct person - in this case, your character's deity. I was the developer behind the project, with one friend creating art assets and story and the other the music.",
+    "reflection": "This game placed 34 out of over 80 entries. To our team, we were satisfied with this. Since none of us have ever made a game for a game jam, we were worried we would place way worse than we did. The feedback encouraged us to think about how we developed games in the future, such as giving the player a little more guidance on what they were doing. Prey and Pilfer was a great experience to learn from, especially since it showed us what we could create as a team in a short amount of time.",
+    "github": "",
+    "featured": true
+  }
+]

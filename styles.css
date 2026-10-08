@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a,
+button {
+    transition:
+        background 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+body {
+    background: #f3f0e8;
+    color: #26343a;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+button {
+    cursor: pointer;
+    font: inherit;
+}
+
+.curved-box {
+    background: #fbfaf5;
+    border: 1px solid #d8ddd9;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(38, 52, 58, 0.07);
+}
+
+.footer {
+    border-top: 1px solid #d8ddd9;
+    margin: 0 auto;
+    padding: 20px 0 30px;
+    text-align: right;
+    width: min(1500px, 94%);
+}
+
+.footer p {
+    color: #8a9497;
+    font-size: 12px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: #5f7078;
+}
+
+.page {
+    align-items: start;
+    display: grid;
+    gap: 20px;
+    grid-template-columns:
+        190px
+        minmax(350px, 1fr)
+        340px;
+    margin: 0 auto;
+    padding: 50px 0 30px;
+    width: min(1500px, 94%);
+}
+
+
+/* Left Sidebar */
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    position: sticky;
+    top: 30px;
+
+    /*
+        Keep the sidebar inside the viewport.
+        The sidebar gets its own scrollbar instead
+        of forcing the entire page to scroll.
+    */
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+
+    /*
+        Prevent the sidebar scrollbar from making
+        the layout wider than necessary.
+    */
+    scrollbar-width: thin;
+    scrollbar-color: #b8c4c8 transparent;
+}
+
+
+/* Sidebar scrollbar */
+
+.left-column::-webkit-scrollbar {
+    width: 7px;
+}
+
+.left-column::-webkit-scrollbar-thumb {
+    background: #b8c4c8;
+    border-radius: 10px;
+}
+
+.left-column::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+/* Profile */
+
+.profile {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.profile-name h2 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.profile-name p {
+    color: #0c709e;
+    font-size: 13px;
+}
+
+.profile-photo {
+    border: 2px solid #b8d3df;
+    border-radius: 50%;
+    height: 175px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    width: 175px;
+}
+
+.profile-photo img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+/* Main Navigation */
+
+.nav-box {
+    padding: 20px;
+}
+
+.nav-box h3 {
+    color: #5f7078;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.nav-links a {
+    border-radius: 7px;
+    color: #5f7078;
+    font-size: 14px;
+    padding: 10px 11px;
+}
+
+.nav-links a:hover {
+    background: #e2edf1;
+    color: #26343a;
+}
+
+
+/* Sidebar Boxes */
+
+.sidebar-box {
+    padding: 20px;
+}
+
+.sidebar-box h3 {
+    color: #5f7078;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+
+/* Social Box */
+
+.social-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+}
+
+.social-box a {
+    border-radius: 7px;
+    color: #5f7078;
+    font-size: 14px;
+    padding: 10px 11px;
+}
+
+.social-box a:hover {
+    background: #e2edf1;
+    color: #26343a;
+}
+
+
+/* Top Banner */
+
+.top-banner {
+    background-color: #0c709e;
+    background-image:
+        radial-gradient(
+            rgba(255, 255, 255, 0.10) 1px,
+            transparent 1px
+        ),
+        radial-gradient(
+            rgba(0, 45, 65, 0.08) 1px,
+            transparent 1px
+        );
+    background-position: 0 0, 3px 4px;
+    background-size: 7px 7px, 11px 11px;
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+/* Tablet / Smaller Desktop */
+
+@media (max-width: 1100px) {
+
+    .page {
+        grid-template-columns:
+            160px
+            minmax(300px, 1fr);
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 750px) {
+    .left-column {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-height: none;
+        overflow-y: visible;
+        position: static;
+    }
+
+    .page {
+        grid-template-columns: 1fr;
+        padding-top: 35px;
+        width: 92%;
+    }
+
+    .profile {
+        align-items: center;
+        grid-column: span 2;
+        text-align: center;
+    }
+
+    .profile-photo {
+        height: 150px;
+        width: 150px;
+    }
+
+    .nav-box {
+        grid-column: span 2;
+        width: 100%;
+    }
+
+    .nav-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 7px;
+    }
+
+    .nav-links a {
+        text-align: center;
+    }
+
+    .top-banner {
+        height: 130px;
+    }
+}
+
+@media (max-width: 500px) {
+    .left-column {
+        grid-template-columns: 1fr;
+    }
+
+    .profile {
+        grid-column: auto;
+    }
+
+    .profile-photo {
+        height: 140px;
+        width: 140px;
+    }
+
+    .nav-box {
+        grid-column: auto;
+    }
+
+    .nav-links {
+        grid-template-columns: 1fr;
+    }
+}
