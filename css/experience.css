@@ -230,6 +230,12 @@
     color: #0c709e;
 }
 
+.filter-buttons button.active {
+    background: #0c709e;
+    border-color: #0c709e;
+    color: #ffffff;
+}
+
 html {
     scroll-behavior: smooth;
 }
