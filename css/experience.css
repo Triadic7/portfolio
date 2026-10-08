@@ -191,9 +191,10 @@
 }
 
 .certification img {
-    height: 70px;
+    flex: 0 0 auto;
+    height: 200px;
     object-fit: contain;
-    width: 100px;
+    width: 275px;
 }
 
 .experience-filter {
@@ -395,6 +396,11 @@ html {
     .top-banner {
         min-height: 110px;
     }
+
+    .certification img {
+        height: 95px;
+        width: 135px;
+    }
 }
 
 /* Small mobile. */
@@ -473,7 +479,7 @@ html {
     }
 
     .certification img {
-        height: 60px;
-        width: 90px;
+        height: 85px;
+        width: 120px;
     }
 }

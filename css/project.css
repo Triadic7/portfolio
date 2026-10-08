@@ -1,4 +1,4 @@
-/* Remove the large container background behind project sections */
+/* Remove the large container background behind project sections. */
 
 .main-box {
     background: transparent;
@@ -6,7 +6,7 @@
     box-shadow: none;
 }
 
-/* Individual Project Page */
+/* Individual Project Page. */
 
 .project-page {
     display: flex;
@@ -17,8 +17,7 @@
     min-width: 0;
 }
 
-
-/* Project Header */
+/* Project Header. */
 
 .project-page > h1 {
     color: #26343a;
@@ -27,8 +26,7 @@
     margin: 0 0 5px;
 }
 
-
-/* Project Sections */
+/* Project Sections. */
 
 .project-section {
     background: #ffffff;
@@ -53,8 +51,7 @@
     max-width: 850px;
 }
 
-
-/* Section Labels */
+/* Section Labels. */
 
 .project-section h2::after {
     background: #3dae2b;
@@ -65,7 +62,7 @@
     width: 35px;
 }
 
-/* Project Carousel */
+/* Project Carousel. */
 
 .project-carousel {
     background: #26343a;
@@ -86,8 +83,7 @@
     width: 100%;
 }
 
-
-/* Carousel Buttons */
+/* Carousel Buttons. */
 
 .carousel-button {
     align-items: center;
@@ -103,9 +99,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    transition:
-        background 0.2s ease,
-        transform 0.2s ease;
+    transition: background 0.2s ease, transform 0.2s ease;
     width: 46px;
     z-index: 2;
 }
@@ -126,8 +120,7 @@
     right: 18px;
 }
 
-
-/* Carousel Counter */
+/* Carousel Counter. */
 
 .carousel-counter {
     background: rgba(38, 52, 58, 0.78);
@@ -141,8 +134,7 @@
     transform: translateX(-50%);
 }
 
-
-/* Carousel Thumbnails */
+/* Carousel Thumbnails. */
 
 .carousel-thumbnails {
     background: #26343a;
@@ -161,9 +153,7 @@
     height: 52px;
     object-fit: cover;
     opacity: 0.55;
-    transition:
-        border-color 0.2s ease,
-        opacity 0.2s ease;
+    transition: border-color 0.2s ease, opacity 0.2s ease;
 }
 
 .carousel-thumbnail:hover {
@@ -175,8 +165,7 @@
     opacity: 1;
 }
 
-
-/* GitHub */
+/* GitHub. */
 
 #github {
     align-items: flex-start;
@@ -191,9 +180,7 @@
     font-weight: 600;
     padding: 12px 18px;
     text-decoration: none;
-    transition:
-        background 0.2s ease,
-        transform 0.2s ease;
+    transition: background 0.2s ease, transform 0.2s ease;
 }
 
 #github a:hover {
@@ -201,8 +188,7 @@
     transform: translateY(-2px);
 }
 
-
-/* Project Sidebar */
+/* Project Sidebar. */
 
 .project-box {
     display: flex;
@@ -228,10 +214,7 @@
     font-size: 14px;
     padding: 9px 10px;
     text-decoration: none;
-    transition:
-        background 0.2s ease,
-        border-color 0.2s ease,
-        color 0.2s ease;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
 .project-box a:hover {
@@ -246,34 +229,156 @@
     font-weight: 600;
 }
 
-
-/* Tablet / Smaller Desktop */
+/* Tablet / Smaller Desktop. */
 
 @media (max-width: 900px) {
-
     .project-page {
         grid-column: 1 / -1;
     }
-
 }
 
-
-/* Small Tablet / Large Phone */
+/* Mobile. */
 
 @media (max-width: 750px) {
+    .page {
+        align-items: stretch;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 25px;
+        width: 92%;
+    }
+
+    .left-column {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-height: none;
+        overflow: visible;
+        position: static;
+    }
+
+    /* Center profile. */
+
+    .profile {
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-photo {
+        display: block;
+        height: 150px;
+        margin: 0 auto;
+        width: 150px;
+    }
+
+    /* Main navigation stays fixed. */
+
+    .nav-box {
+        background: #fbfaf5;
+        left: 50%;
+        position: fixed;
+        top: 10px;
+        transform: translateX(-50%);
+        width: calc(100% - 30px);
+        z-index: 1000;
+    }
+
+    .nav-box h3 {
+        display: none;
+    }
+
+    .nav-box .nav-links {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .nav-box .nav-links a {
+        padding: 11px 6px;
+        text-align: center;
+    }
+
+    /* Project sub-navigation becomes a horizontal wrapping list. */
+
+    .project-box {
+        align-items: center;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 6px;
+        justify-content: center;
+        padding: 18px;
+        width: 100%;
+    }
+
+    .project-box h3 {
+        margin-bottom: 4px;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* This targets the actual link container if one exists. */
+
+    .project-box .nav-links,
+    .project-box #project-links {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 6px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .project-box a {
+        background: #fbfaf5;
+        border-left: 0;
+        border-radius: 7px;
+        display: inline-block;
+        flex: 0 0 auto;
+        padding: 9px 13px;
+        text-align: center;
+        width: auto;
+    }
+
+    .project-box a:nth-of-type(even) {
+        background: #f3f5f3;
+    }
+
+    .project-box a:hover,
+    .project-box a.active {
+        background: #e2edf1;
+        border-left: 0;
+    }
+
+    /* Main project content. */
+
+    .main-box {
+        align-items: center;
+        margin-top: 0;
+        min-height: auto;
+        padding: 30px 22px;
+        width: 100%;
+    }
 
     .project-page {
+        align-items: center;
         gap: 18px;
-        margin-top: 0;
+        grid-column: auto;
+        margin: 0;
+        text-align: center;
+        width: 100%;
     }
 
     .project-page > h1 {
-        font-size: clamp(36px, 9vw, 52px);
+        font-size: clamp(36px, 10vw, 52px);
     }
 
     .project-section {
-        border-radius: 11px;
-        padding: 28px;
+        text-align: left;
+        width: 100%;
     }
 
     .project-section h2 {
@@ -284,6 +389,8 @@
         font-size: 15px;
         line-height: 1.8;
     }
+
+    /* Carousel. */
 
     .carousel-button {
         height: 40px;
@@ -303,12 +410,57 @@
         height: 46px;
     }
 
+    .top-banner {
+        min-height: 110px;
+    }
 }
 
-
-/* Phone */
+/* Small mobile. */
 
 @media (max-width: 500px) {
+    .page {
+        gap: 12px;
+        width: calc(100% - 24px);
+    }
+
+    .profile-photo {
+        height: 135px;
+        width: 135px;
+    }
+
+    .nav-box {
+        width: calc(100% - 20px);
+    }
+
+    .nav-box .nav-links {
+        gap: 3px;
+    }
+
+    .nav-box .nav-links a {
+        font-size: 12px;
+        padding: 10px 4px;
+    }
+
+    /* Compact horizontal project sub-navigation. */
+
+    .project-box {
+        gap: 5px;
+        padding: 15px;
+    }
+
+    .project-box .nav-links,
+    .project-box #project-links {
+        gap: 5px;
+    }
+
+    .project-box a {
+        font-size: 12px;
+        padding: 8px 11px;
+    }
+
+    .main-box {
+        padding: 25px 18px;
+    }
 
     .project-page {
         gap: 14px;
@@ -319,6 +471,7 @@
     }
 
     .project-section {
+        border-radius: 10px;
         padding: 22px;
     }
 
@@ -368,14 +521,4 @@
         flex-basis: 60px;
         height: 40px;
     }
-
-    .project-box {
-        padding: 16px;
-    }
-
-    .project-box a {
-        font-size: 13px;
-        padding: 8px 9px;
-    }
-
 }
