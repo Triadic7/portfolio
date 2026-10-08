@@ -22,7 +22,7 @@ async function loadProject() {
 
 
     // Load the projects from the JSON file.
-    const response = await fetch("/data/projects.json");
+    const response = await fetch("data/projects.json");
     const projects = await response.json();
 
 

@@ -1,6 +1,6 @@
 // Load projects from JSON file.
 async function loadProjects() {
-    const response = await fetch("/data/projects.json");
+    const response = await fetch("data/projects.json");
     const projects = await response.json();
 
     // Get the project grid and sidebar navigation.

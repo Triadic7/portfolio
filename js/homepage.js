@@ -2,7 +2,7 @@
 async function loadHomepageProjects() {
 
     // Load the projects.
-    const response = await fetch("/data/projects.json");
+    const response = await fetch("data/projects.json");
     const projects = await response.json();
 
 
